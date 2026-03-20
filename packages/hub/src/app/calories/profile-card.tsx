@@ -111,7 +111,7 @@ export default function ProfileCard({ profile, latestMeasurements, onUpdated }: 
 
     return (
       <SectionCard
-        title="Settings"
+        title="Profile"
         action={
           <button onClick={openEdit} className="text-sm text-indigo-400 hover:underline">
             Edit
@@ -165,7 +165,7 @@ export default function ProfileCard({ profile, latestMeasurements, onUpdated }: 
 
   // Edit mode
   return (
-    <SectionCard title="Settings">
+    <SectionCard title="Profile">
       <div className="space-y-3">
         <div className="grid grid-cols-2 gap-3">
           <Field label="Age">
